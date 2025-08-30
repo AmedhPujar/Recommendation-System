@@ -14,3 +14,5 @@ PyJWT
 scikit-learn
 langchain
 langchain_google_genai
+
+Create a database in your vscode setup for your inputs to be stored inorder to get recommendations
