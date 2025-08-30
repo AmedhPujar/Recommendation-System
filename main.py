@@ -16,10 +16,10 @@ from sklearn.metrics.pairwise import cosine_similarity
 
 
 # ========== CONFIGURATION ==========
-DB_PATH = 'career_connector.db'
+DB_PATH = 'Your Database Path'
 JWT_SECRET = os.getenv("JWT_SECRET", "change-me-in-prod")   # Prefer env var
-JWT_ALGORITHM = 'HS256'
-JOBDATA_PATH = os.path.join(os.path.dirname(__file__), 'Career_connector_app', 'JobData.csv')
+JWT_ALGORITHM = 'Your Algorithm'
+JOBDATA_PATH = os.path.join(os.path.dirname(__file__), 'Your Folder Name', 'Your Training Data')
 GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")  # Must be set for Gemini usage
 
 # ========== DATABASE SETUP ==========
@@ -508,3 +508,4 @@ with tabs[1]:
 **Eligibility:** {job['eligibility']}  
 **Posted by:** {job['recruiter_email']}  
 —""")
+
